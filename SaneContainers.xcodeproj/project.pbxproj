@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461D2DEE20E16836001A20AF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DED20E16836001A20AF /* Result.swift */; };
+		461D2DF020E168B4001A20AF /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DEF20E168B4001A20AF /* Deferred.swift */; };
+		461D2DF320E168F4001A20AF /* TypeResure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DF220E168F4001A20AF /* TypeResure.swift */; };
+		461D2DF620E169FD001A20AF /* NotWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DF520E169FD001A20AF /* NotWorking.swift */; };
+		461D2DF820E16A19001A20AF /* ResureBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DF720E16A19001A20AF /* ResureBased.swift */; };
+		461D2DFA20E16A2A001A20AF /* ConditionalMethodBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DF920E16A2A001A20AF /* ConditionalMethodBased.swift */; };
+		461D2DFF20E16B11001A20AF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2DFE20E16B11001A20AF /* DataModel.swift */; };
+		461D2E0120E16B60001A20AF /* Service0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0020E16B60001A20AF /* Service0.swift */; };
+		461D2E0320E17116001A20AF /* Printing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0220E17116001A20AF /* Printing.swift */; };
+		461D2E0620E1867B001A20AF /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0520E1867B001A20AF /* Service1.swift */; };
+		461D2E0820E192BD001A20AF /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0720E192BD001A20AF /* Service2.swift */; };
+		461D2E0A20E192CA001A20AF /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0920E192CA001A20AF /* Service3.swift */; };
+		461D2E0C20E1A7D0001A20AF /* Service3R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0B20E1A7D0001A20AF /* Service3R.swift */; };
+		461D2E0E20E24BA0001A20AF /* Injectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461D2E0D20E24BA0001A20AF /* Injectables.swift */; };
 		467D96D020CB87C3000DC72B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D96CF20CB87C3000DC72B /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +37,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		461D2DED20E16836001A20AF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		461D2DEF20E168B4001A20AF /* Deferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deferred.swift; sourceTree = "<group>"; };
+		461D2DF220E168F4001A20AF /* TypeResure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeResure.swift; sourceTree = "<group>"; };
+		461D2DF520E169FD001A20AF /* NotWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotWorking.swift; sourceTree = "<group>"; };
+		461D2DF720E16A19001A20AF /* ResureBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResureBased.swift; sourceTree = "<group>"; };
+		461D2DF920E16A2A001A20AF /* ConditionalMethodBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalMethodBased.swift; sourceTree = "<group>"; };
+		461D2DFE20E16B11001A20AF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		461D2E0020E16B60001A20AF /* Service0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service0.swift; sourceTree = "<group>"; };
+		461D2E0220E17116001A20AF /* Printing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printing.swift; sourceTree = "<group>"; };
+		461D2E0520E1867B001A20AF /* Service1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service1.swift; sourceTree = "<group>"; };
+		461D2E0720E192BD001A20AF /* Service2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service2.swift; sourceTree = "<group>"; };
+		461D2E0920E192CA001A20AF /* Service3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service3.swift; sourceTree = "<group>"; };
+		461D2E0B20E1A7D0001A20AF /* Service3R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service3R.swift; sourceTree = "<group>"; };
+		461D2E0D20E24BA0001A20AF /* Injectables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injectables.swift; sourceTree = "<group>"; };
 		467D96CC20CB87C3000DC72B /* SaneContainers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SaneContainers; sourceTree = BUILT_PRODUCTS_DIR; };
 		467D96CF20CB87C3000DC72B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +66,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461D2DF120E168C7001A20AF /* ContainerTypes */ = {
+			isa = PBXGroup;
+			children = (
+				461D2DED20E16836001A20AF /* Result.swift */,
+				461D2DEF20E168B4001A20AF /* Deferred.swift */,
+				461D2E0220E17116001A20AF /* Printing.swift */,
+			);
+			path = ContainerTypes;
+			sourceTree = "<group>";
+		};
+		461D2DF420E169CB001A20AF /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				461D2DF520E169FD001A20AF /* NotWorking.swift */,
+				461D2DF220E168F4001A20AF /* TypeResure.swift */,
+				461D2DF720E16A19001A20AF /* ResureBased.swift */,
+				461D2DF920E16A2A001A20AF /* ConditionalMethodBased.swift */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		461D2DFB20E16A4A001A20AF /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				461D2DFE20E16B11001A20AF /* DataModel.swift */,
+				461D2E0020E16B60001A20AF /* Service0.swift */,
+				461D2E0520E1867B001A20AF /* Service1.swift */,
+				461D2E0720E192BD001A20AF /* Service2.swift */,
+				461D2E0B20E1A7D0001A20AF /* Service3R.swift */,
+				461D2E0920E192CA001A20AF /* Service3.swift */,
+				461D2E0D20E24BA0001A20AF /* Injectables.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		467D96C320CB87C3000DC72B = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +120,9 @@
 		467D96CE20CB87C3000DC72B /* SaneContainers */ = {
 			isa = PBXGroup;
 			children = (
+				461D2DFB20E16A4A001A20AF /* Logic */,
+				461D2DF120E168C7001A20AF /* ContainerTypes */,
+				461D2DF420E169CB001A20AF /* Transformers */,
 				467D96CF20CB87C3000DC72B /* main.swift */,
 			);
 			path = SaneContainers;
@@ -94,6 +160,7 @@
 				TargetAttributes = {
 					467D96CB20CB87C3000DC72B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -119,7 +186,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461D2E0120E16B60001A20AF /* Service0.swift in Sources */,
+				461D2E0320E17116001A20AF /* Printing.swift in Sources */,
+				461D2DFF20E16B11001A20AF /* DataModel.swift in Sources */,
+				461D2E0A20E192CA001A20AF /* Service3.swift in Sources */,
+				461D2E0C20E1A7D0001A20AF /* Service3R.swift in Sources */,
+				461D2DEE20E16836001A20AF /* Result.swift in Sources */,
+				461D2E0820E192BD001A20AF /* Service2.swift in Sources */,
+				461D2DF020E168B4001A20AF /* Deferred.swift in Sources */,
 				467D96D020CB87C3000DC72B /* main.swift in Sources */,
+				461D2E0E20E24BA0001A20AF /* Injectables.swift in Sources */,
+				461D2DFA20E16A2A001A20AF /* ConditionalMethodBased.swift in Sources */,
+				461D2E0620E1867B001A20AF /* Service1.swift in Sources */,
+				461D2DF320E168F4001A20AF /* TypeResure.swift in Sources */,
+				461D2DF620E169FD001A20AF /* NotWorking.swift in Sources */,
+				461D2DF820E16A19001A20AF /* ResureBased.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D55QK79K95;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -255,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D55QK79K95;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
